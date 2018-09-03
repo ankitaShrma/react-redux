@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+li{
+  list-style: none;
+}
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th{
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: 33.33%;
+}
+th{
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: left;
+  background-color: #26532b;
+  color: white
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+.input-search{
+  text-align: center;
+  padding:10px;  
+}
+
+.input-select{
+  text-align: center;
+  padding-bottom: 10px;
+
+}
+.pager{
+  display: inline;
+  background: #26532b;
+  border: 1px solid white;
+  color: #ffffff;
+
+}
+.pager:hover{
+  background: silver ;
+  color: black;
+}
+
+
